@@ -8,21 +8,84 @@ body {
 
 #animacja {
     padding: 10px;
-   margin-top: 100px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 
 #animacja .czas {
-    display: inline;
-    width: 2px;
+    display: inline-block;
+    width: 12px;
     text-transform: uppercase;
-    
+    animation-name: akademia;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    margin-left: 6px;
 }
 
+#a {
+    animation-delay: 0s;
+}
 
+#k {
+    animation-delay: 0.2s;
+}
 
+#aa {
+    animation-delay: 0.4s;
+}
 
-@keyframes {
-    from {opacity: 0;}
-    to {opacity: 1;}
+#d {
+    animation-delay: 0.6s;
+}
+
+#e {
+    animation-delay: 0.8s;
+}
+
+#m {
+    animation-delay: 1s;
+}
+
+#i {
+    animation-delay: 1.2s;
+    padding-left: 20px;
+}
+
+#aaa {
+    animation-delay: 1.4s;
+}
+
+#jeden {
+    animation-delay: 1.6s;
+    padding-left: 20px;
+}
+
+#zero {
+    animation-delay: 1.8s;
+}
+
+#osiem {
+    animation-delay: 2s;
+}
+
+@keyframes akademia {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
 }
