@@ -1,0 +1,28 @@
+body {
+    background-color: hotpink;
+    font-size: 3em;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+#animacja {
+    padding: 10px;
+   margin-top: 100px;
+    margin-left: 20px;
+}
+
+#animacja .czas {
+    display: inline;
+    width: 2px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+@keyframes {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
